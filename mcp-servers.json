@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "mysql-server": {
+      "command": "python",
+      "args": [
+        "D:/VS_WorkSpace/mcp_class_demo/data_query/mysql_server.py"
+      ],
+      "env": {
+        "DB_HOST": "localhost",
+        "DB_USER": "root", 
+        "DB_PASSWORD": "123456",
+        "DB_NAME": "test_mcp"
+      },
+      "description": "MySQL数据库MCP服务器，提供SQL查询执行、表信息获取和数据可视化等功能"
+    }
+  }
+}
